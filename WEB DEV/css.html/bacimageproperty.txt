@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 344px;
+            height: 1344px;
+
+           border : 2px solid red;
+             background-image: url('https://images.unsplash.com/photo-1533450718592-29d45635f0a9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8anBnfGVufDB8fDB8fHww');
+
+
+            background-repeat: no-repeat;
+            background-size: 633px 45px;
+            color: white;
+            background-position: top center;
+
+        }
+
+        body {
+
+            /* background-image: url('https://images.unsplash.com/photo-1533450718592-29d45635f0a9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8anBnfGVufDB8fDB8fHww');
+            /* background-repeat: repeat - x; */
+            /* background-repeat: repeat - y; */
+            /*            
+            background-repeat:  no-repeat;
+            background-size: contain; */
+            */
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum molestiae velit libero inventore maiores eos
+        molestias deleniti ad laboriosam corrupti, voluptatum odio, eius iste reiciendis expedita minima fugit!
+        Repellendus ut, adipisci alias ipsam soluta, fugiat molestiae provident, doloremque quasi ad ab maiores
+        assumenda modi culpa?
+    </div>
+
+</body>
+
+</html>
