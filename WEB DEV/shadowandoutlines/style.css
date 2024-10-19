@@ -1,0 +1,17 @@
+.box{
+    background-color: aqua;
+    color: rgb(17, 216, 33);
+    border: 2px solid red;
+    padding: 34px;
+  box-shadow: 5px 5px 15px 25px #106b1f; 
+}
+.text-element{
+  text-shadow: 2px 2px 4px #970404;
+   outline: 5px solid rgb(15, 15, 17); 
+   border: 5px solid red;
+   border-radius: 50px;
+
+  
+
+}
+
