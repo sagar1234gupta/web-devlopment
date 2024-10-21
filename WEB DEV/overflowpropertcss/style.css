@@ -1,0 +1,11 @@
+.box{
+    width: 30vw;
+    height: 30vh;
+    border: 2px solid red;
+    overflow: scroll;
+    /* nowrap krne se pura ek line mein a jata hai */
+    white-space: nowrap;
+    /* text-overflow: ellipsis; se age ki line ... mein a jati hai */
+    text-overflow: ellipsis;
+
+}
