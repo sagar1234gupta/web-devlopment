@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    /* agr box mein background-color dege to sare box usi color ke ho jayer ge; */
+    /* background-color: rgb(74, 136, 12); */
+    border: 2px solid rgb(2, 2, 2);
+    height: 133px;
+    width: 133px;
+    margin: 3px;
+    padding: 3px;
+}
+
+
+.box1 {
+    background-color: aqua;
+    /* position ko sticky dene sse iye uper chipk jayega */
+    /* position: sticky;
+    top: 0px;
+    height: 221px;
+    width: 221%;
+    margin: 0;
+    padding: 0; */
+
+    position: absolute;
+}
+
+.box2 {
+    background-color: rgb(139, 14, 14);
+    position: relative;
+
+    /* top ya bottom mein koi ek set kr skte hai */
+    top: 4px;
+    left: 53px;
+}
+
+.box3 {
+    background-color: black;
+    /* iski position fixe ho jaegi */
+    position: fixed;
+    bottom: 0px;
+    left: 35vw;
+    height: 160px;
+}
+
+.box4 {
+    background-color: yellow;
+    position: relative;
+    bottom: 0px;
+    right: 13px;
+}
+
+
+.parent {
+    padding: 43px;
+    margin: 34px;
+    border: 3px solid blue;
+    /*transform, filter, or perspective properties can also make an element apper as positioned*/
+
+   /* position: relative; */
+}
