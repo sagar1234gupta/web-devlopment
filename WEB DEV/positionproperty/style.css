@@ -1,0 +1,8 @@
+.box{
+    background-color: chartreuse;
+    border: 2px solid;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
