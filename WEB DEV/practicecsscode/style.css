@@ -1,0 +1,11 @@
+p{
+    background-color: blue;
+    color: rgb(247, 247, 247);
+}
+/* iye first para ko color dega */
+div p:first-child{
+    /* iye second para ko color dega */
+    /* div p:nth-child(2){ */
+    background-color: yellow ;
+    color: red;
+}
