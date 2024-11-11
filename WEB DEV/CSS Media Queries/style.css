@@ -1,0 +1,9 @@
+body{
+    background-color: red;
+}
+@media only screen and (max-width: 100px){
+    body{
+        background-color: rgb(18, 1, 170);
+        /* jb 100 px ke neeche ayega to uska color blue ho jayega */
+    }
+}
