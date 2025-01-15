@@ -151,9 +151,6 @@ console.log('hello jee');
 let numbers = [1,2,-6,-9];
 let filtered = numbers.filter(value => 0);
 
-let items = filtered.map(function(value){
-    return {value: num}
+let items = filtered.map(num => {value: num});
    
-
-})
 console.log(items);
